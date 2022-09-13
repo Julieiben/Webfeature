@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         rexlia: "'relaxia', sans-serif",
         jetbrains: "'JetBrains Mono', monospace",
+        export: "'export', sans-serif",
       },
     },
   },

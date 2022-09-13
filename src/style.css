@@ -8,6 +8,10 @@
     background-attachment: fixed;
     background-size: contain;
   }
+
+  h2 {
+    -webkit-text-stroke: 1px #db00ff; /* width and color */
+  }
 }
 
 @layer components {
