@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         rexlia: "'relaxia', sans-serif",
+        jetbrains: "'JetBrains Mono', monospace",
       },
     },
   },

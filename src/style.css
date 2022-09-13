@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    background-image: url("/img/sort.webp");
+    background-attachment: fixed;
+    background-size: contain;
+  }
+}
+
+@layer components {
   .flicker-3 {
     -webkit-animation: flicker-3 2.5s linear infinite both;
     animation: flicker-3 2.5s linear infinite both;
