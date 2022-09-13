@@ -21,3 +21,12 @@ scroll(
 
 /*SCROLL BAR*/
 scroll(animate(".progress-bar", { scaleX: [0, 1] }));
+
+// inView
+inView(".txtinview", ({ target }) => {
+  animate(
+    target.querySelectorAll("p"),
+    { x: [-2000, 0] },
+    { duration: 1, delay: stagger(1, { start: 0.25 }) }
+  );
+});
