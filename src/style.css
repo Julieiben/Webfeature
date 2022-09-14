@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  body {
+  html {
     background-image: url("/img/sort.webp");
     background-attachment: fixed;
     background-size: contain;
